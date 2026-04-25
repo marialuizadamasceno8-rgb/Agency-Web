@@ -222,3 +222,30 @@ main{
 .content-service h3 span{
     color: var(--color-blue);
 }
+
+/* ------- SECTION BENEFIT -----*/
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+    background-color: var(--color-blue);
+    
+}
+
+.card-benefit p{
+    width: 458px;
+}
+
+.card-benefit-secondary{
+    background-color: #f4f4f4;
+}
