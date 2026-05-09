@@ -290,3 +290,24 @@ main{
 }
 
 
+.section-company{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 43px;
+    padding: 80px;
+}
+
+.section-company h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+    font-size: var(--font-size-h3);
+
+}
+
+.container-company{
+    display: flex;
+    gap: 80px;
+}
+
